@@ -1,4 +1,4 @@
-# 27. Remove Element
+# 27. Remove Element - Easy
 # https://leetcode.com/problems/remove-element/
 class Solution(object):
     def removeElement(self, nums, val):
