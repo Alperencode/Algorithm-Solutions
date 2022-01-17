@@ -11,11 +11,9 @@ class Solution(object):
             newDigits.append(str(x)[i])
         return newDigits
             
-solution = Solution()
-
 # Testcases
-solution.plusOne([1,2,3])
-solution.plusOne([4,3,2,1])
-solution.plusOne([9])
+# [1,2,3]
+# [4,3,2,1]
+# [9]
 
 # Status - Accepted

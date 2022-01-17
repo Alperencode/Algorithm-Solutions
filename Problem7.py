@@ -20,9 +20,7 @@ class Solution(object):
         
         return int(reversedInt)
 
-solution = Solution()
-
 # Testcases
-solution.reverse(1534236469)
+# 1534236469
 
 # Status - Wrong Answer

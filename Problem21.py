@@ -10,10 +10,8 @@ class Solution(object):
         merged.sort()
         return merged
 
-solution = Solution()
-
 # Tescases
-solution.mergeTwoLists([1,2,4],[1,3,4])
+# [1,2,4] - [1,3,4]
 
 # Status - Not Submitted
 ## Note: Works on local python but Leetcode gives error

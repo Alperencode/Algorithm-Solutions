@@ -7,11 +7,9 @@ class Solution(object):
         except:
             return -1
 
-solution = Solution()
-
 # Testcases
-solution.strStr("hello", "ll")
-solution.strStr("aaaaa","bba")
-solution.strStr("","")
+# "hello", "ll"
+# "aaaaa","bba"
+# "",""
 
 # Status - Accepted

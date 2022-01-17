@@ -1,4 +1,4 @@
-# 41. First Missing Positive
+# 41. First Missing Positive - Hard
 # https://leetcode.com/problems/first-missing-positive/
 class Solution(object):
     def firstMissingPositive(self, nums):
@@ -20,6 +20,12 @@ class Solution(object):
             counter += 1
         return 1
 
+# Testcases:
+#[1,2,0]
+# [3,4,-1,1]
+# [7,8,9,11,12]
+
+# Status - Time Limit Exceeded
 ## Note: I made 3 variant of this solution which is correct
 ## But leetcode wants the most optimized and fastest solution
-## So I'll update this solution 
+## So I'll update this solution
