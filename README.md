@@ -1,4 +1,4 @@
-# LeetCode
+# Algorithm Solutions
 
 ## Repository Description
 

@@ -2,12 +2,8 @@
 # https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/
 def accum(s):
     k = ""
-    for c,i in enumerate(s):
-        c2 = 0
-        if c2==0:
-            k += i.upper()
-            c2 += 1
-        k += (c)*i.lower()
+    for c,i in enumerate(s):        
+        k += i.upper() + (c * i.lower())
         if c != len(s)-1:
             k += "-"
     return k
