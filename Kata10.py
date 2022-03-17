@@ -5,7 +5,7 @@ def zeros(n):
         return -1
     remainder = 0
     while(n >= 5):
-        n //= 5
+        n = int(n/5)
         remainder += n
     return remainder
 
