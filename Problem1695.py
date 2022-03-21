@@ -16,7 +16,6 @@ class Solution(object):
                 l = l[start:]
                 l.append(i)
                 end = index
-                print(currentsum, endsum)
             endsum = sum(l)
             if currentsum > highest:
                 highest = currentsum
