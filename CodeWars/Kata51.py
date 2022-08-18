@@ -55,3 +55,19 @@ def invert(lst):
 # invert([]) - []
 
 # Status - Passed
+
+##############################
+
+# Sum Mixed Array
+# https://www.codewars.com/kata/57eaeb9578748ff92a000009/
+def sum_mix(arr):
+    return sum([int(x) for x in arr])
+
+# Testcases
+# sum_mix([9, 3, '7', '3']) - 22
+# sum_mix(['5', '0', 9, 3, 2, 1, '9', 6, 7]) - 42
+# sum_mix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']) - 41
+# sum_mix(['1', '5', '8', 8, 9, 9, 2, '3']) - 45
+# sum_mix([8, 0, 0, 8, 5, 7, 2, 3, 7, 8, 6, 7]) - 61
+
+# Status - Passed
