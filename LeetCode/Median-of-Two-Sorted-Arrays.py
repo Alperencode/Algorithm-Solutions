@@ -1,5 +1,6 @@
 # 4. Median of Two Sorted Arrays - Hard
 # https://leetcode.com/problems/median-of-two-sorted-arrays/
+
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         merged = nums1 + nums2

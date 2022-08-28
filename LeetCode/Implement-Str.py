@@ -1,5 +1,6 @@
 # 28. Implement strStr() - Easy
 # https://leetcode.com/problems/implement-strstr/
+
 class Solution(object):
     def strStr(self, haystack, needle):
         try:

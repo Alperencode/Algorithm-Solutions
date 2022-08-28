@@ -1,5 +1,6 @@
 # 1. Two Sum - Easy
 # https://leetcode.com/problems/two-sum/
+
 class Solution(object):
     def twoSum(self, nums, target):
         for index,value in enumerate(nums):

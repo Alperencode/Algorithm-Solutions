@@ -1,5 +1,6 @@
 # 41. First Missing Positive - Hard
 # https://leetcode.com/problems/first-missing-positive/
+
 class Solution(object):
     def firstMissingPositive(self, nums):
         # return the smallest missing positive integer.

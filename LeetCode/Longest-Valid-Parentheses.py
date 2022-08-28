@@ -1,5 +1,6 @@
 # 32. Longest Valid Parentheses - Hard
 # https://leetcode.com/problems/longest-valid-parentheses/
+
 class Solution(object):
     def longestValidParentheses(self, s):
         valid = 0
