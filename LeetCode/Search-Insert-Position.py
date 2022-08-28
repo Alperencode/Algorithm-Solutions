@@ -1,5 +1,6 @@
 # 35. Search Insert Position - Easy
 # https://leetcode.com/problems/search-insert-position/
+
 class Solution(object):
     def searchInsert(self, nums, target):
         if target in nums:
