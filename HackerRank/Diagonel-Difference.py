@@ -1,5 +1,6 @@
 # Diagonal Difference
 # https://www.hackerrank.com/challenges/diagonal-difference/problem
+
 def diagonalDifference(arr):
     diag1,diag2 = 0,0
     for i in range(len(arr)):

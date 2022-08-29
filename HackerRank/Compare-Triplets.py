@@ -1,5 +1,6 @@
 # Compare the Triplets
 # https://www.hackerrank.com/challenges/compare-the-triplets/
+
 def compareTriplets(a, b):
     ans1,ans2 = 0,0
     for i in range(0,3):
