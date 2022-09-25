@@ -3,30 +3,16 @@
 
 class Solution(object):
     def findLeastNumOfUniqueInts(self, arr, k):
-        set_ = set(arr)
-        min = int()
         for i in range(k):
-            print(set_)
-            temp = arr.count(arr[0])
-            for item in set_:
-                if arr.count(item) < arr.count(next(iter(set_))):
-                    min_ = arr.count(item)
-                    temp = item
-                    print(temp)
-                print("item: "+ str(item) + " next: " + str(next(iter(set_))))
+            arr.remove(min(set(arr), key=arr.count))
         return len(set(arr))
 
-# Testcases
-# [5,5,4]
-# 1
+## Note: Solution is correct but it causes Time Limit Exceeded error on Leetcode
+## Because one of the testcases is a array that array itself is 97KB and k=745
+## That means algorithm need to search that array that is 97KB for 745 times
+## Note: 97Kb = 97 000 bytes
 
-# stdout:
-# set([4, 5])
-# item: 4 next: 4
-# item: 5 next: 4
-##Note: How can 4's next element can be 4 again while itering a set object.
+# Testcase:
+# https://leetcode.com/submissions/detail/808376388/testcase/
 
-# Expected: 1
-# Output: 2
-
-# Status: Wrong Answer
+# Status: Time Limit Exceeded
