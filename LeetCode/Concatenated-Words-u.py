@@ -1,26 +1,21 @@
 # 472. Concatenated Words - Hard
 # https://leetcode.com/problems/concatenated-words/
+
 class Solution(object):
     def findAllConcatenatedWordsInADict(self, words):
-        normals = []
-        concatenated = []
+        ans = []
         for word in words:
-            for normal in normals:
-                if (normal in word) and (word not in concatenated):
-                    concatenated.append(word)
-                    continue
-            if (word not in normals) and (word not in concatenated):
-                normals.append(word)
-        print(normals)
-        return concatenated
-            
-solution = Solution()
-solution.findAllConcatenatedWordsInADict(["a","b","ab","abc"])
+            for item in words:
+                if word in item:
+                    if item.replace(word,'') in words and item not in ans:
+                        ans.append(item)
+        return ans
 
-# Will try:
-# for i in range(len(sub_word)+1):
+##Note: This only works if concatenated words are 2 words long
+## So not works if concatenated word is like "ratcatdogcat"
 
-# Input: ["a","b","ab","abc"]
-# Output: ["ab","abc"]
-# Expected : ["ab"] 
-# ["catsdogcats","dogcatsdog","ratcatdogcat"]
+# Testcases:
+# ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"] - ["catsdogcats","dogcatsdog","ratcatdogcat"]
+# ["cat","dog","catdog"] - ["catdog"]
+
+# Status - Wrong Answer
