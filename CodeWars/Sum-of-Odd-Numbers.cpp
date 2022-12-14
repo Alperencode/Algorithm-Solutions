@@ -10,7 +10,7 @@ long long rowSumOddNumbers(unsigned n){
     long long exponent = std::pow(n-1,2);
 
     for(long long i=0; i<n; i++){
-        // n + [(n^2)+i*2)]
+        // n + [(n^2)+i*2]
         sum += n + (exponent + i*2);
     }
     return sum;
