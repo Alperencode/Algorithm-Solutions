@@ -11,7 +11,6 @@ Note: Files with the '-u' at the end means they are unfinished.
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
 
 ## Features
 
@@ -26,9 +25,9 @@ Note: Files with the '-u' at the end means they are unfinished.
 ## Getting Started
 
 1. **Clone the Repository**: 
-   \```bash
-   git clone https://github.com/finn-str/Algorithm-Solutions.git
-   \```
+   ```bash
+   git clone https://github.com/Alperencode/Algorithm-Solutions/Algorithm-Solutions.git
+   ```
    
 2. **Navigate and Explore**: Once cloned, navigate through the repository. Each problem has its dedicated folder with the solution and a `README.md` explaining the approach.
 
@@ -66,8 +65,4 @@ We're always on the lookout for better solutions and optimizations. If you belie
 
 1. Fork the repository.
 2. Make your changes.
-3. Submit a [pull request](https://github.com/finn-str/Algorithm-Solutions/pulls) with a detailed explanation of your solution or problem.
-
-## License
-
-This project is open-source and generously shared with the community under the [MIT License](https://github.com/finn-str/Algorithm-Solutions/blob/main/LICENSE). Feel free to use, modify, and distribute as you see fit, but do give the rightful credit.
+3. Submit a [pull request](https://github.com/Alperencode/Algorithm-Solutions/pulls) with a detailed explanation of your solution or problem.
