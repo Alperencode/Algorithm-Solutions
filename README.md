@@ -30,7 +30,9 @@ Welcome to the [Algorithm Solutions](https://github.com/Alperencode/Algorithm-So
    git clone https://github.com/Alperencode/Algorithm-Solutions/Algorithm-Solutions.git
    ```
    
-2. **Navigate and Explore**: Once cloned, navigate through the repository. Each problem has its dedicated folder with the solution and a `README.md` explaining the approach.
+2. **Navigate and Explore**: Once cloned, navigate through the repository. Each question has its original name on its platform and each solution has a link to the question's URL as comment line. Feel free to see the original question using the URL or search the question by it's name.
+
+> Naming examples: Problem-Name.py, Other-Problem.c
 
 ## Folder Structure
 
