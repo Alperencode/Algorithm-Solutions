@@ -1,26 +1,27 @@
 # Algorithm Solutions
 
-Welcome to the [Algorithm Solutions](https://github.com/Alperencode/Algorithm-Solutions) repository! This is a curated collection of algorithmic challenges and their solutions, meticulously crafted to help both beginners and seasoned programmers. Whether you're preparing for a coding interview, participating in a coding challenge, or just passionate about algorithms, this repository is for you.
-This repository contains my LeetCode, CodeWars (Kata) and HackerRank problem solutions which is mostly written with Python. I'll try to keep solving problems in my free time to see different variant of questions and improve my algorithm solving skills.
+Welcome to the [Algorithm Solutions](https://github.com/Alperencode/Algorithm-Solutions) repository! Within this repository, you'll find my solutions to a variety of LeetCode, CodeWars (Kata), and HackerRank problems, predominantly implemented in Python. As I continue to explore different problem variants, I'll be adding more solutions in my free time.
 
-Note: Files with the '-u' at the end means they are unfinished.
+> Note: Files with the '-u' at the end means they are unfinished.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Contribution Guidelines](#contribution-guidelines)
+- [Algorithm Solutions](#algorithm-solutions)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Folder Structure](#folder-structure)
+  - [Contribution Guidelines](#contribution-guidelines)
 
 ## Features
 
-- **Comprehensive Solutions**: Each algorithmic problem is accompanied by a detailed solution, complete with explanations, edge cases, and runtime complexities.
+- **Comprehensive Solutions**: Each algorithmic problem is accompanied by a detailed solution, edge cases, and runtime complexities.
   
-- **Optimized Algorithms**: We pride ourselves on providing not just any solution, but the most optimized one. Our algorithms are crafted with performance in mind, ensuring that you get the best out of every line of code.
+- **Optimized Algorithms**: I pride myself on providing not just any solution, but the most optimized one. My algorithms are crafted with performance in mind.
   
-- **Variety of Problems**: Our repository covers a broad spectrum of problems, from the basics to the most challenging ones. Whether you're a novice or an expert, there's something here for everyone.
+- **Variety of Problems**: My repository covers a broad spectrum of problems, from the basics to the most challenging ones. Whether you're a novice or an expert, there's something here for everyone.
   
-- **Clean and Commented Code**: We believe that the best code is the one that speaks for itself. Our solutions are written in a clean and readable manner, peppered with comments to guide you through.
+- **Clean and Commented Code**: We believe that the best code is the one that speaks for itself. My solutions are written in a clean and readable manner, and some of them are peppered with comments to guide you through.
 
 ## Getting Started
 
@@ -33,31 +34,26 @@ Note: Files with the '-u' at the end means they are unfinished.
 
 ## Folder Structure
 
-Our repository is organized based on difficulty levels, ensuring a smooth progression for those looking to learn:
+My repository is organized based on platforms:
 
 ```
 Algorithm-Solutions/
 │
-├── beginner/
-│   ├── problem1/
-│   │   ├── solution.py
-│   │   └── README.md
-│   └── problem2/
-│       ├── solution.js
-│       └── README.md
-│
-├── intermediate/
-│   └── problem1/
-│       ├── solution.java
-│       └── README.md
-│
-└── advanced/
-    └── problem1/
-        ├── solution.cpp
-        └── README.md
+├── LeetCode
+│   └── Python (42)
+├── CodeWars
+│   ├── Python (54)
+│   ├── C# (1)
+│   └── C-C++ (2)
+├── HackerRank
+│   └── Python (13)
+└── AlgoLeague
+    └── C-C++ (3)
+
 ```
 
-> Note: This is a generic folder structure. Replace with the actual structure of the repository.
+Total solutions: 115
+> Note: Folder structure last updated on date: 9/28/2023
 
 ## Contribution Guidelines
 
