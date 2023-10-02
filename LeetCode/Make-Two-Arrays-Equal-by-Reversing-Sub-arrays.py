@@ -1,5 +1,6 @@
 # 1460. Make Two Arrays Equal by Reversing Sub-arrays - Easy
 # https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
+
 class Solution(object):
     def canBeEqual(self, target, arr):
         for i in arr:

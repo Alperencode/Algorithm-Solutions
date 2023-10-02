@@ -13,13 +13,14 @@ class Solution(object):
                     continue
                 top = stack[-1]
                 stack.pop(-1)
-                if (top == '[' and char != ']') or (top == '(' and char != ')'):
+                if (top == '[' & char != ']') or (top == '(' and char != ')'):
                     continue
                 valid += 2
         return valid
 
-##Note: Updated to stack implementation. But even if I opened the issue about this problem
-# Still didn't understand why this particular input expected to be 2 instead of 4.  
+# Note: Updated to stack implementation.
+# But even if I opened the issue about this problem
+# Still didn't understand why this particular input expected to be 2 instead of 4.
 
 # Input: "()(()"
 # Output: 4

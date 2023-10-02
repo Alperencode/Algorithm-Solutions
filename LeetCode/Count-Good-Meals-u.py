@@ -2,18 +2,18 @@
 # https://leetcode.com/problems/count-good-meals/
 class Solution(object):
     def countPairs(self, deliciousness):
-        l = []
+        arr = []
         goodMeals = 0
-        for c,i in enumerate(deliciousness):
-            for c2,j in enumerate(deliciousness):
-                if ([i,j] and [j,i]) not in l:
+        for c, i in enumerate(deliciousness):
+            for c2, j in enumerate(deliciousness):
+                if ([i, j] and [j, i]) not in arr:
                     if c == c2:
                         continue
                     x = i + j
-                    if (x and (not(x & (x - 1))) ):
-                        print(i,j)
+                    if (x and (not (x & (x - 1)))):
+                        print(i, j)
                         goodMeals += 1
-                    l.append([i,j])
+                    arr.append([i, j])
         return goodMeals
 
 # Testcases

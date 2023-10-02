@@ -1,5 +1,6 @@
 # 2114. Maximum Number of Words Found in Sentences - Easy
 # https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+
 class Solution(object):
     def mostWordsFound(self, sentences):
         counter = len(sentences[0].split(" "))

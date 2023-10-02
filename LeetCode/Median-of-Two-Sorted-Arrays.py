@@ -14,7 +14,7 @@ class Solution(object):
             median = merged[n//2]
         return median
 
-##Note: Its working on local machine, but not on leetcode.
+# Note: Its working on local machine, but not on leetcode.
 
 # Testcases
 # [1,3]

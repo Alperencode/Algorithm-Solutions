@@ -3,12 +3,12 @@
 class Solution(object):
     def getNoZeroIntegers(self, n):
         if '0' not in str(n-1):
-            return [1,n-1]
+            return [1, n-1]
         c = 1
         while True:
             c += 1
             if ('0' not in str(n-c)) and ('0' not in str(c)):
-                return [c,n-c]
+                return [c, n-c]
 
 # Testcases
 # 2

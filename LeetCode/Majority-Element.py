@@ -1,5 +1,6 @@
 # 169. Majority Element - Easy
 # https://leetcode.com/problems/majority-element/
+
 class Solution(object):
     def majorityElement(self, nums):
         seen = []
@@ -15,4 +16,4 @@ class Solution(object):
 # [2,2,1,1,1,2,2]
 
 # Status - Accepted
-## Note: 'seen' list helps it to process faster
+# Note: 'seen' list helps it to process faster

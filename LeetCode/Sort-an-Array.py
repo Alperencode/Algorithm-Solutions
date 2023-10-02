@@ -1,5 +1,6 @@
 # 912. Sort an Array - Medium
 # https://leetcode.com/problems/sort-an-array/
+
 class Solution(object):
     def sortArray(self, nums):
         return sorted(nums)

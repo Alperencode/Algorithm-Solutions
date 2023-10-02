@@ -1,5 +1,6 @@
 # 21. Merge Two Sorted Lists - Easy
 # https://leetcode.com/problems/merge-two-sorted-lists/
+
 class Solution(object):
     def mergeTwoLists(self, list1, list2):
         merged = []
@@ -14,4 +15,4 @@ class Solution(object):
 # [1,2,4] - [1,3,4]
 
 # Status - Not Submitted
-## Note: Works on local python but Leetcode gives error
+# Note: Works on local python but Leetcode gives error

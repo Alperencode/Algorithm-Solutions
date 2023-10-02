@@ -1,15 +1,16 @@
 # 389. Find the Difference
 # https://leetcode.com/problems/find-the-difference/
+
 class Solution(object):
     def findTheDifference(self, s, t):
-        l = []
+        arr = []
         for i in s:
-            l.append(i)
+            arr.append(i)
         for i in t:
-            if i not in l:
-                del l[:]
+            if i not in arr:
+                del arr[:]
                 return i
-            l.remove(i)
+            arr.remove(i)
 
 # Testcases
 # "abcd"

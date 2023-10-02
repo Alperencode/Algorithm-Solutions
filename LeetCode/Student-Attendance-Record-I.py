@@ -1,9 +1,10 @@
 # 551. Student Attendance Record I - Easy
 # https://leetcode.com/problems/student-attendance-record-i/
+
 class Solution(object):
     def checkRecord(self, s):
         aCount = 0
-        for i,v in enumerate(s):
+        for i, v in enumerate(s):
             if v == "A":
                 aCount += 1
             if v == "L":

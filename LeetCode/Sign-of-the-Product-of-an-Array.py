@@ -1,5 +1,6 @@
 # 1822. Sign of the Product of an Array - Easy
 # https://leetcode.com/problems/sign-of-the-product-of-an-array/
+
 class Solution(object):
     def arraySign(self, nums):
         if 0 in nums:

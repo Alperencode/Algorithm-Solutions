@@ -13,10 +13,10 @@ class Solution(object):
         return " ".join(ans)
 
     # short way:
-    def capitalizeTitle(self, title):
+    def capitalizeTitleShort(self, title):
         return " ".join(item.lower() if len(item)<=2 else item.lower().capitalize() for item in title.split(" "))
 
-            
+
 # Testcases
 # "capiTalIze tHe titLe"
 # "First leTTeR of EACH Word"

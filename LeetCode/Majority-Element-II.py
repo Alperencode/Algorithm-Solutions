@@ -1,17 +1,18 @@
 # 229. Majority Element II - Medium
 # https://leetcode.com/problems/majority-element-ii/
+
 class Solution(object):
     def majorityElement(self, nums):
-        l = []
+        arr = []
         for i in nums:
-            if i in l:
+            if i in arr:
                 continue
             if nums.count(i) > (len(nums)/3):
-                if i not in l:
-                    l.append(i)
-        return l
+                if i not in arr:
+                    arr.append(i)
+        return arr
 
-## Note: I'll learn more about sets for the more optimized solution.
+# Note: I'll learn more about sets for the more optimized solution.
 
 # Testcases
 # [3,2,3]

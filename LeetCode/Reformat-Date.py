@@ -1,9 +1,12 @@
 # 1507. Reformat Date - Easy
 # https://leetcode.com/problems/reformat-date/
+
 class Solution(object):
     def reformatDate(self, date):
         # YYYY-MM-DD
-        months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept Sep","Oct","Nov","Dec"]
+        months = [
+            "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+            "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
         info = date.split(" ")
         day = info[0][:-2]
         year = info[2]
@@ -16,7 +19,7 @@ class Solution(object):
             month = "0" + str(month)
         if len(str(day)) == 1:
             day = "0" + str(day)
-            
+
         return f"{year}-{month}-{day}"
 
 # Testcases

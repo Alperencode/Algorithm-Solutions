@@ -7,7 +7,7 @@ class Solution(object):
         counter = 0
         # sorted the list
         nums.sort()
-        
+
         # find the smallest missing positive integer
         for i in nums:
             if i > 0:
@@ -22,11 +22,11 @@ class Solution(object):
         return 1
 
 # Testcases:
-#[1,2,0]
+# [1,2,0]
 # [3,4,-1,1]
 # [7,8,9,11,12]
 
 # Status - Time Limit Exceeded
-## Note: I made 3 variant of this solution which is correct
-## But leetcode wants the most optimized and fastest solution
-## So I'll update this solution
+# Note: I made 3 variant of this solution which is correct
+# But leetcode wants the most optimized and fastest solution
+# So I'll update this solution

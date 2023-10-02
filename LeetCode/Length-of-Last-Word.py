@@ -1,5 +1,6 @@
 # 58. Length of Last Word - Easy
 # https://leetcode.com/problems/length-of-last-word/
+
 class Solution(object):
     def lengthOfLastWord(self, s):
         s = s.strip().split(" ")
