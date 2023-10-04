@@ -2,7 +2,7 @@
 # https://www.hackerrank.com/challenges/diagonal-difference/problem
 
 def diagonalDifference(arr):
-    diag1,diag2 = 0,0
+    diag1, diag2 = 0, 0
     for i in range(len(arr)):
         diag1 += arr[i][i]
         diag2 += arr[i][len(arr)-1-i]
@@ -17,7 +17,7 @@ def diagonalDifference(arr):
 # Status - Passed
 
 
-##Note: one of the testcase matrix was this (Answer: 462):
+# Note: one of the testcase matrix was this (Answer: 462):
 
 # 15 49 -77 31 15 -17 -96 80 79 -11 -33 -95 -40 85 1 -84 -89 -66 81 38 26 -65 -15 -19 -29 -69 80 51 79 -42
 # -93 -96 22 41 -38 -36 94 96 -47 -83 -61 13 47 -25 -71 74 93 5 3 23 47 -19 6 -53 41 -48 -34 39 -55 -100

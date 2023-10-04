@@ -6,9 +6,9 @@ def caesarCipher(s, k):
     ans = ""
     for char in s:
         if char.upper() in alphabet:
-            rotated = alphabet[(alphabet.index(char.upper())+k)%26]
-            ans += rotated if char.isupper() else rotated.lower()  
-        else: 
+            rotated = alphabet[(alphabet.index(char.upper())+k) % 26]
+            ans += rotated if char.isupper() else rotated.lower()
+        else:
             ans += char
     return ans
 

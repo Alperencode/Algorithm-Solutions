@@ -2,7 +2,7 @@
 # https://www.hackerrank.com/challenges/bon-appetit/problem
 
 def bonAppetit(bill, k, b):
-    if b==sum(bill)/2:
+    if b == sum(bill)/2:
         bill.pop(k)
         print(f"{b-sum(bill)//2}")
     else:

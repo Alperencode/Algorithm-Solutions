@@ -1,11 +1,12 @@
 # Sales by Match
 # https://www.hackerrank.com/challenges/sock-merchant/
 
-##Note: This solution works and it's accepted, but I think it uses memory unnecessarily. I will try to optimize it later.
-## So I'm marking it with '-u'
+# Note: This solution works and it's accepted, but I think it uses unnecessary memory.
+# I will try to optimize it later.
+# So I'm marking it with '-u'
 
-##Note2: Besides that it can solve using Data Structures instead of using python's built-in functions.
-## Because ar.remove(item) and using it twice looks messy.
+# Note2: Besides that it can solve using Data Structures instead of using python's built-in functions.
+# Because ar.remove(item) and using it twice looks messy.
 
 def sockMerchant(n, ar):
     ans = 0

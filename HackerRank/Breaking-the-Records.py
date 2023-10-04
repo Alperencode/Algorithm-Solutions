@@ -2,8 +2,8 @@
 # https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 
 def breakingRecords(scores):
-    min_,max_ = scores[0],scores[0]
-    ans = [0,0]
+    min_, max_ = scores[0], scores[0]
+    ans = [0, 0]
     for item in scores:
         if item > max_:
             ans[0] += 1

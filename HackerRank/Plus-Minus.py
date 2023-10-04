@@ -2,12 +2,12 @@
 # https://www.hackerrank.com/challenges/plus-minus/
 
 def plusMinus(arr):
-    p,n,z = 0,0,0
+    p, n, z = 0, 0, 0
     for i in arr:
-        if i>0: p+=1
-        elif i==0: z+=1
-        else: n+=1
-    
+        if i > 0: p += 1
+        elif i == 0: z += 1
+        else: n += 1
+
     print(f"{p/len(arr)}\n{n/len(arr)}\n{z/len(arr)}")
 
 # Testcases
