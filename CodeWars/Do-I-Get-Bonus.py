@@ -1,7 +1,8 @@
 # Do I get a bonus?
-# https://www.codewars.com/kata/56f6ad906b88de513f000d96 
+# https://www.codewars.com/kata/56f6ad906b88de513f000d96
+
 def bonus_time(salary, bonus):
-    return "$"+ str(salary*10 if bonus else salary)
+    return "$" + str(salary*10 if bonus else salary)
 
 # Testcases
 # bonus_time(10000, True) - '$100000'

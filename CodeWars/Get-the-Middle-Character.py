@@ -1,5 +1,6 @@
 # Get the Middle Character
 # https://www.codewars.com/kata/56747fd5cb988479af000028
+
 def get_middle(string):
     if len(string) % 2 == 0:
         offset = int(len(string) / 2)

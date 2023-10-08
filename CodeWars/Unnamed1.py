@@ -7,7 +7,7 @@ def cakes(recipe, available):
     for key in recipe:
         if recipe[key] > available[key]:
             return 0
-    
+
     return min(available[key] // recipe[key] for key in recipe)
 
 # Testcases

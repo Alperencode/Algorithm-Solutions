@@ -1,8 +1,9 @@
 # To square(root) or not to square(root)
 # https://www.codewars.com/kata/57f6ad55cca6e045d2000627
+
 def square_or_square_root(arr):
     import math
-    for c,i in enumerate(arr):
+    for c, i in enumerate(arr):
         sqr = math.sqrt(i)
         if sqr.is_integer():
             arr[c] = sqr

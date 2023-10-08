@@ -6,7 +6,7 @@ def scramble(s1, s2):
             return False
     return True
 
-##Note: Its passing all tests except the performance tests.
+# > Note: Its passing all tests except the performance tests.
 # So the solution is true but it can be more optimized.
 
 # Testcases
@@ -14,4 +14,4 @@ def scramble(s1, s2):
 # 'cedewaraaossoqqyt', 'codewars' - True
 # 'katas', 'steak' - False
 
-# Status - Passed: 514 Failed: 6 
+# Status - Passed: 514 Failed: 6

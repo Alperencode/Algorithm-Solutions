@@ -1,5 +1,6 @@
 # Product Of Maximums Of Array (Array Series #2)
 # https://www.codewars.com/kata/5a63948acadebff56f000018
+
 def max_product(lst, n_largest_elements):
     ans = 1
     for i in range(n_largest_elements):
@@ -17,8 +18,10 @@ def max_product(lst, n_largest_elements):
 
 # Maximum Triplet Sum (Array Series #7)
 # https://www.codewars.com/kata/5aa1bcda373c2eb596000112/
+
+
 def max_tri_sum(numbers):
-    ans,s = 0, set(numbers)
+    ans, s = 0, set(numbers)
     for i in range(3):
         ans += max(s)
         s.remove(max(s))

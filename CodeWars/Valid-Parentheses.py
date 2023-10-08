@@ -1,5 +1,6 @@
 # Valid Parentheses
 # https://www.codewars.com/kata/52774a314c2333f0a7000688
+
 def valid_parentheses(string):
     stack = []
     flag = True
@@ -7,10 +8,10 @@ def valid_parentheses(string):
         if char in ['(', '[']:
             stack.append(char)
         else:
-            if char not in [')',']']:
+            if char not in [')', ']']:
                 continue
             if not stack:
-                # that means there is some unvalid parentheses 
+                # that means there is some unvalid parentheses
                 flag = False
                 continue
             top = stack[-1]
@@ -21,7 +22,8 @@ def valid_parentheses(string):
         return True
     return False
 
-##Note: That kata doesn't requires the check '[]' but I added it to make it more flexible.
+# > Note: That kata doesn't requires the check '[]'
+# but I added it to make it more flexible.
 
 # Testcases
 # valid_parentheses("  (") - False

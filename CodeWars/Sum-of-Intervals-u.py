@@ -1,5 +1,6 @@
 # Sum of Intervals
 # https://www.codewars.com/kata/52b7ed099cdc285c300001cd/
+
 def sum_of_intervals(intervals):
     output = 0
     # I'll loop through intervals first to check overlaps
@@ -11,7 +12,7 @@ def sum_of_intervals(intervals):
             continue
     return output
 
-##Note: Need to add overlapping control
+# > Note: Need to add overlapping control
 
 # Testcases
 # sum_of_intervals([(1, 5)]) - 4

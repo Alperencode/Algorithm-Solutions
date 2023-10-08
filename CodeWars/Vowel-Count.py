@@ -1,9 +1,10 @@
 # Vowel Count
 # https://www.codewars.com/kata/54ff3102c1bad923760001f3
+
 def get_count(sentence):
     counter = 0
     for i in sentence:
-        if i.lower() in ["a","e","i","o","u"]:
+        if i.lower() in ["a", "e", "i", "o", "u"]:
             counter += 1
     return counter
 

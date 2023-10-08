@@ -1,5 +1,6 @@
 # Fake Binary
 # https://www.codewars.com/kata/57eae65a4321032ce000002d
+
 def fake_bin(x):
     return ''.join(["1" if int(char) >= 5 else "0" for char in x])
 

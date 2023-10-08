@@ -1,16 +1,17 @@
 # ISBN-10 Validation
 # https://www.codewars.com/kata/51fc12de24a9d8cb0e000001
+
 def valid_ISBN10(isbn):
     if len(isbn) != 10:
         return False
-    
+
     try:
-        isbn = [10 if (x=="X" and isbn.index(x)==9) else int(x) for x in isbn]
-    except:
+        isbn = [10 if (x == "X" and isbn.index(x) == 9) else int(x) for x in isbn]
+    except Exception:
         return False
-    
+
     sum = 0
-    for c,i in enumerate(isbn):
+    for c, i in enumerate(isbn):
         sum += (c+1)*i
     return (sum % 11 == 0)
 

@@ -1,9 +1,9 @@
 def smaller(arr):
     result = []
-    for index,item in enumerate(arr):
+    for index, item in enumerate(arr):
         counter = 0
         for i in arr[index+1:]:
-            if item>i:
+            if item > i:
                 counter += 1
         result.append(counter)
     return result

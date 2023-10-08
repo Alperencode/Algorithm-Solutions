@@ -1,9 +1,10 @@
-##Note These are very basic katas (8 kyu). So I'm combining them into one kata.
+# Note These are very basic katas (8 kyu). So I'm combining them into one kata.
 
 ##############################
 
 # Sum of positive
 # https://www.codewars.com/kata/5715eaedb436cf5606000381/
+
 def positive_sum(arr):
     return sum([x if x > 0 else 0 for x in arr])
 
@@ -18,6 +19,8 @@ def positive_sum(arr):
 
 # Contamination #1 -String-
 # https://www.codewars.com/kata/596fba44963025c878000039/train/python
+
+
 def contamination(text, char):
     return char*len(text)
 
@@ -30,8 +33,10 @@ def contamination(text, char):
 
 ##############################
 
-# Strings: starts with 
-# https://www.codewars.com/kata/5803a6d8db07c59fff00015f/ 
+# Strings: starts with
+# https://www.codewars.com/kata/5803a6d8db07c59fff00015f/
+
+
 def starts_with(st, prefix):
     return (st[0:len(prefix)] == prefix)
 
@@ -46,6 +51,8 @@ def starts_with(st, prefix):
 
 # Invert values
 # https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/
+
+
 def invert(lst):
     return [-x for x in lst]
 
@@ -60,6 +67,8 @@ def invert(lst):
 
 # Sum Mixed Array
 # https://www.codewars.com/kata/57eaeb9578748ff92a000009/
+
+
 def sum_mix(arr):
     return sum([int(x) for x in arr])
 

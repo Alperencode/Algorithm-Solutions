@@ -1,8 +1,9 @@
 # Moving Zeros To The End
 # https://www.codewars.com/kata/52597aa56021e91c93000cb0/
+
 def move_zeros(array):
     for i in array:
-        if i==0:
+        if i == 0:
             array.remove(0)
             array.append(0)
     return array

@@ -1,14 +1,15 @@
 # Sum of Digits / Digital Root
 # https://www.codewars.com/kata/541c8630095125aba6000c00
+
 def digital_root(n):
-    l = list(str(n))
+    arr = list(str(n))
     sumOfDigits = 0
-    while len(l) > 1:
-        for i in l:
+    while len(arr) > 1:
+        for i in arr:
             sumOfDigits += int(i)
-        l = list(str(sumOfDigits))
+        arr = list(str(sumOfDigits))
         sumOfDigits = 0
-    return int(l[0])
+    return int(arr[0])
 
 # Testcases
 #     16  -->  1 + 6 = 7

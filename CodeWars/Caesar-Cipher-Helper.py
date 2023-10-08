@@ -1,7 +1,9 @@
 # Caesar Cipher Helper
 # https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
+
 class CaesarCipher(object):
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
     def __init__(self, shift):
         self.shift = shift
 
@@ -18,7 +20,7 @@ class CaesarCipher(object):
                 index = index + self.shift
             encoded += self.alphabet[index - 1]
         return encoded
-    
+
     def decode(self, st):
         decoded = ''
         for i in st:
@@ -32,7 +34,7 @@ class CaesarCipher(object):
                 index = index - self.shift
             decoded += self.alphabet[index - 1]
         return decoded
-        
+
 # Testcases
 # c = CaesarCipher(5);
 # c = CaesarCipher(13);
